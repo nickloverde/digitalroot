@@ -19,3 +19,9 @@ function digital_root(number) {
         return sum;
     }
  }
+
+//  Additional solution
+
+function digital_root(n) {
+  return (n % 9) || 9;
+}
